@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.container .image {
+    display: flex;
+    grid-gap: 50px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.container .image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container h1 {
+    font-size: 16px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.container h2 {
+    font-size: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.container h3 {
+    font-size: 20px;
+    padding-top: 30px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.container a h3 {
+    color: white;
+}
+
+.container button {
+    width: 200px;
+    height: 55px;
+    border-radius: 50px;
+    border: #DF7F4A;
+    background: #DF7F4A;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 100px;
+}
+
+.container button:hover {
+    width: 200px;
+    height: 55px;
+    border-radius: 50px;
+    border: #DF7F4A;
+    background: #333333;
+    color: white;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.div button {
+    margin: auto;
+}
+
+.container span h3:hover {
+    filter: opacity(75%);
+}
+
+@media only screen and (max-width:800px) {
+    .container .image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+
+    .container .image img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        display: grid;
+    }
+
+    .container h2 {
+        font-family: sans-serif;
+        font-weight: 400;
+        padding-top: 1300px;
+    }
+
+    .container button {
+        width: 200px;
+        height: 55px;
+        border-radius: 50px;
+        border: #DF7F4A;
+        background: #DF7F4A;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-bottom: 50px;
+    }
+    
+
+}
